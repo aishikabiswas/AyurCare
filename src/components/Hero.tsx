@@ -15,7 +15,7 @@ const Hero = () => {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="absolute inset-0 bg-background/60 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-background/40 backdrop-blur-sm"></div>
       </div>
 
       {/* Content */}
@@ -39,7 +39,7 @@ const Hero = () => {
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             Experience the ancient wisdom of Ayurveda with over two decades of expertise in natural healing, rejuvenation, and holistic wellness.
           </p>
 

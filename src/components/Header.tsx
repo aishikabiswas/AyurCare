@@ -20,9 +20,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold gradient-text">
-              AyurCare
+              OrenzaCare
             </h1>
-            <p className="text-xs text-muted-foreground">Wellness Center</p>
+            <p className="text-xs text-gray-500">Wellness Center</p>
           </div>
 
           {/* Desktop Navigation */}
@@ -70,7 +70,7 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col gap-3 pt-4">
-                <Button variant="outline" size="sm" className="flex items-center gap-2 justify-center">
+                <Button className="flex items-center gap-2 justify-center hover:bg-primary/10">
                   <Phone className="h-4 w-4" />
                   Call Now
                 </Button>
