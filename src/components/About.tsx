@@ -27,7 +27,7 @@ const About = () => {
           {/* Content */}
           <div className="fade-up">
             <Badge variant="outline" className="mb-4 text-primary border-primary">
-              About AyurCare
+              About OrenzaCare
             </Badge>
             
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
