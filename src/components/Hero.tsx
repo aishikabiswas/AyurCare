@@ -32,10 +32,10 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">Ayurvedic Wellness</span>
+          <h1 className="font-bold mb-6 leading-tight">
+            <span className="text-foreground text-4xl md:text-6xl lg:text-7xl">OrenzaCare</span>
             <br />
-            <span className="text-foreground">Center Dubai</span>
+            <span className="gradient-text text-3xl md:text-5xl lg:text-6xl">Ayurvedic Wellness Centre</span>
           </h1>
 
           {/* Subheading */}
@@ -81,14 +81,14 @@ const Hero = () => {
           {/* Contact Info */}
           <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <span className="font-medium">Karama:</span>
+              <span className="font-medium text-black">Karama:</span>
               <a href="tel:056 592 9841" className="hover:text-primary transition-colors">
                 056 592 9841
               </a>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border"></div>
             <div className="flex items-center gap-2">
-              <span className="font-medium">Qusais:</span>
+              <span className="font-medium text-black">Qusais:</span>
               <a href="tel:056 1448993" className="hover:text-primary transition-colors">
                 056 1448993
               </a>
